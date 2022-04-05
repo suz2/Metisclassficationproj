@@ -9,9 +9,6 @@ The ranking range cannot be overemphasized for a soccer team in Big 5 league (th
 
 The data will be scraped from fbref.com through beautiful soup. The model aims at predicting whether the teams in Big 5 League will acquire qualification of UEFA (top 6 or 7 depending on the league), relegate to the inferior league(drop at the lowest 3 ranking) or stay in the middle range at the end of the season, based on the statistics of team-level performance which is collected in one season. The features will be divided into the aspects of team shots (shots on target percentage, shots per game), defensive actions (block, interceptions, tackles, dribble tackles percentage), and goal keeping.
 
-## Data
-
-The datasets include 590 team statistics from Big 5 European league and Major League Soccer (MLS) in United States within 2017 - 2021 season. The goal scoring of one team per game in one season is employed as target. The features can be categorized into the aspects of shots (shots on target percentage, shots per game), possessions (possession rate, average passes percentage, dribbles successful rate) and defensive actions (block, interceptions, tackles, dribble tackles percentage). Pair plot and variance inflation factor are inspected to exclude the collinearity.
 
 ## Tools
 
